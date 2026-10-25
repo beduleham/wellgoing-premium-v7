@@ -1,0 +1,18 @@
+{
+  "name": "웰고잉 WELLGOING",
+  "short_name": "WELLGOING",
+  "description": "Better Care, Better Living",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#193b2d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

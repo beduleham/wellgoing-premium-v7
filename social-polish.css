@@ -1,0 +1,7 @@
+/* WELLGOING V8 — discreet accessible native sharing */
+.wg-native-share{margin:0 12px 0 0;padding:8px 12px;border:1px solid currentColor;border-radius:999px;background:transparent;color:inherit;font:inherit;font-size:12px;line-height:1.35;cursor:pointer;white-space:nowrap}
+.wg-native-share:hover{background:rgba(44,76,53,.09)}
+.wg-native-share:focus-visible{outline:3px solid #c39b58;outline-offset:3px}
+.wg-native-share-status{font-size:12px;line-height:1.5;display:inline-block;margin-right:8px;max-width:240px;vertical-align:middle;color:inherit}
+.site-footer .footer-bottom>span:last-child{display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:flex-end}
+@media(max-width:620px){.site-footer .footer-bottom>span:last-child{justify-content:flex-start}.wg-native-share{min-height:44px;padding:10px 14px}}
