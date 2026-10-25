@@ -1,0 +1,42 @@
+/* WELLGOING V8 — accessible UI and polished reading on all devices */
+.appear,.appear:not(.in-view){opacity:1!important;transform:none!important}
+body{overflow-wrap:break-word}
+.body-text,.inner-page .product-detail-copy p,.inner-page .usage-cards p,.inner-page .credential-grid p,.inner-page .contact-form-intro>p:not(.eyebrow){line-height:1.82!important}
+.inner-page .fine-print,.inner-page .small-note,.inner-page .v4-source-note,.modal-disclaimer{color:#385442!important;font-size:13px!important;line-height:1.7!important}
+.modal-info>p,.modal-specs li,.modal-disclaimer{font-size:14px!important;color:#334a3b!important}
+.modal-specs li span{color:#38543f!important}
+.ai-section .ai-step small,.ai-section .demo-note{color:#edf4e9!important}
+:where(a,button,input,select,textarea,[tabindex]):focus-visible{outline:3px solid #ba8c39!important;outline-offset:4px!important}
+.site-footer :where(a,button):focus-visible,.ai-section :where(a,button):focus-visible,.product-editorial :where(a,button):focus-visible,.partnership :where(a,button):focus-visible{outline-color:#f1dba3!important}
+button,a,select,input[type=checkbox]{touch-action:manipulation}
+.nav-toggle,.modal-close,.gallery-thumb,.ai-step{min-height:44px}
+.nav-toggle{min-width:44px}
+.mobile-nav a{min-height:51px;align-items:center}
+.mobile-nav a span{font-size:13px!important;color:#395842!important}
+.site-header .desktop-nav a,.site-header .shop-link{font-size:13px!important}
+.header-contact{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+.site-footer .footer-links a,.site-footer .footer-company a,.site-footer .footer-bottom a{text-underline-offset:4px}
+.wg-mail-note{font-size:14px!important;line-height:1.7!important;color:#294936!important;padding:13px 15px;margin:16px 0 18px;background:#edf2e9;border-left:3px solid #678365;border-radius:0 7px 7px 0}
+.wg-mail-actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:12px}
+.wg-copy-address{min-height:44px;border:1px solid #a1b19f;background:#fffdf8;color:#183d2a;padding:10px 16px;border-radius:100px;font-size:14px;font-weight:600;font-family:inherit;line-height:1.4;cursor:pointer}
+.wg-copy-address:hover{background:#e8efe6}
+.wg-mail-status{font-size:13px;color:#24472d;line-height:1.6}
+.form-feedback{color:#20492c!important;min-height:1.6em}
+@media(max-width:850px){body.menu-open{overflow:hidden}.mobile-nav{max-height:calc(100dvh - 72px);overflow-y:auto;overscroll-behavior:contain;z-index:105}}
+@media(max-width:550px){
+.hero-v2 .hero-desc,.body-text,.inner-page .fine-print,.inner-page .small-note{font-size:15px!important}
+.hero-v2 .cta-row .button,.button,.inline-button,.quick-view{font-size:14px!important;min-height:44px}
+.ai-section .ai-step small,.ai-section .demo-note{font-size:13px!important}
+.mock-cards span,.mock-preview{font-size:11px!important;line-height:1.35!important}
+.mock-cards b{font-size:12px!important}
+.materials-content .material-benefits span{font-size:12px!important}
+.partner-types span{font-size:11px!important;letter-spacing:.02em}
+.contact-options a{font-size:14px!important;min-height:48px}
+.site-footer .footer-bottom{font-size:12px!important;line-height:1.6}
+.hero-picture .film-control{min-height:44px;font-size:12px}
+.modal-close{width:44px;height:44px;top:8px;right:8px}
+.modal-info{padding:28px 22px 35px}
+.modal-specs li{font-size:13px!important}
+.contact-email{font-size:clamp(16px,4.7vw,21px)!important;overflow-wrap:anywhere}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
