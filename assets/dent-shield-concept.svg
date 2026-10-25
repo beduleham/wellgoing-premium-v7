@@ -1,0 +1,14 @@
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" role="img" aria-label="비채 덴트쉴드 손잡이 및 교체형 헤드 컨셉 일러스트">
+<defs><linearGradient id="handle" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c4c4ae"/><stop offset=".25" stop-color="#faf7e9"/><stop offset=".55" stop-color="#e9e8d9"/><stop offset="1" stop-color="#d2d7ca"/></linearGradient><linearGradient id="head" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#9fb9a3"/><stop offset=".45" stop-color="#879f89"/><stop offset="1" stop-color="#647d6b"/></linearGradient><filter id="shadow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="15"/></filter><pattern id="bristles" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.5" fill="#d2dfcd" opacity=".7"/><circle cx="10" cy="9" r="1.1" fill="#e5eddf" opacity=".4"/></pattern></defs>
+<ellipse cx="402" cy="568" rx="305" ry="38" fill="#546455" opacity=".13" filter="url(#shadow)"/>
+<g transform="translate(195 10) rotate(33 300 360)">
+<rect x="290" y="244" width="48" height="357" rx="24" fill="url(#handle)" stroke="#bdc8b7" stroke-width="2"/>
+<rect x="293" y="247" width="8" height="342" rx="4" fill="#fff" opacity=".56"/>
+<rect x="290" y="220" width="48" height="40" rx="14" fill="#d6ded1" stroke="#b4c3b3" stroke-width="2"/>
+<rect x="266" y="110" width="96" height="140" rx="46" fill="url(#head)" stroke="#819c86" stroke-width="3"/>
+<rect x="269" y="112" width="90" height="133" rx="44" fill="url(#bristles)"/>
+<ellipse cx="307" cy="155" rx="24" ry="38" fill="#eef4e5" opacity=".1"/>
+<circle cx="314" cy="560" r="5" fill="#9baea0"/>
+</g>
+<g transform="translate(85 55) rotate(-25 160 148)"><ellipse cx="146" cy="216" rx="66" ry="14" fill="#617466" opacity=".13" filter="url(#shadow)"/><rect x="110" y="80" width="90" height="132" rx="42" fill="url(#head)" stroke="#758f7c" stroke-width="3"/><rect x="113" y="83" width="84" height="126" rx="40" fill="url(#bristles)"/><rect x="130" y="203" width="51" height="23" rx="9" fill="#afc4ae"/></g>
+</svg>
